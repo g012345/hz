@@ -418,3 +418,18 @@ footer{
     color: #E7E9FC;
     margin: 16px 0 0 155px;
 }
+.rolperson1{
+    width: 198px;
+    height: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434455;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
