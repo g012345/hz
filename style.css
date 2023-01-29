@@ -25,8 +25,16 @@ footer, header, hgroup, menu, nav, section {
 html {
 	height: 100%;
 }
-body {
+.wrapper{
+    width: 1440px;
+}
+body{
 	line-height: 1;
+    background-color: #E5E5E5;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
 }
 ol, ul {
 	list-style: none;
@@ -46,18 +54,9 @@ table {
 a, u {
     text-decoration: none;
   }
-  
-
-body{
-    background-color: #E5E5E5;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'PT Serif', serif;
-    font-family: 'Raleway', sans-serif;
-    overflow-x: hidden;
-}
 header{
     position: fixed;
-    width:100%; 
+    width: 1440px;
     top: 0;
     height: 72px;
     background-color: #E7E9FC;
@@ -171,7 +170,7 @@ header{
 }
 .dark-bg{
     padding:258px 0 0 473px;
-    width: 1440px;
+    width: 967px;
     height: 600px;
     background: #2E2F42;
 }
